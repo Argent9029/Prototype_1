@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    [SerializeField] private float speed = 15f;       //Velocidade de aceleração
+    [SerializeField] private float speed = 20f;       //Velocidade de aceleração
     [SerializeField] private float turnSpeed = 80f;   //Velocidade de rotação
     float forwardInput;
     float horizontalInput;
